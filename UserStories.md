@@ -1,6 +1,6 @@
-Topic: Website for small business (Shirt design service)
+# Topic: Website for small business (Shirt design service)
 
-User Stories
+User Stories:
 
 1. Login/Sign in Page (10 Days) -> User will able to login to their account.
 2. Shopping Cart (7 Days) ->  User will be able to checkout multiple items that they picked.
@@ -12,4 +12,4 @@ User Stories
 8. Size measurement (2 Days) -> User are able to choose their shirt size.
 9. Specify color (2 Days) -> User are able to choose their shirt color.
 
-Total Estimation Day 62 Days
+*Total Estimation Day 62 Days*
