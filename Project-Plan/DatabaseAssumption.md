@@ -1,4 +1,7 @@
-## Database Design Assumption
+# Database Design
+![Database Design](https://github.com/Raltyez/Group-7-TR2-2024/assets/143167334/22f0b39a-3c0f-4e24-a8a4-d5b3ba7d4f00)
+
+## Database Design Assumptions
 
 1.	A user can place multiple orders, but each order is placed by a single user.
 2.	A user can submit multiple custom design requests, but each custom design request is submitted by a single user.
