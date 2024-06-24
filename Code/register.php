@@ -9,6 +9,9 @@
         $password = $_POST["password"];
         $confirm_password = $_POST["confirm_password"];
 
+        // Lower email
+        $email = strtolower($email);
+
         // Check if password and confirm password match
         if ($password !== $confirm_password) {
             die("Password and confirm password do not match.");
