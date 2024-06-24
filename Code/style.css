@@ -6,7 +6,7 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-body {
+body{
     background-color: black;
     min-height: 100vh;
 }
@@ -86,10 +86,7 @@ a:hover {
 main {
     clear: left;
     display: flex;
-    justify-content: center;
-    align-items: center;
     min-height: 100vh;
-    background-image: url("purple_star.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
