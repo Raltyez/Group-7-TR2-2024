@@ -8,6 +8,9 @@
         $email = $_POST["email"];
         $password = $_POST["password"];
 
+        // Lower email
+        $email = strtolower($email);
+
         // Hash the entered password using SHA-256
         $hashed_password = hash('sha256', $password);
 
