@@ -26,7 +26,7 @@
             die("Connection failed: " . $connection->connect_error);
         } else {
             // Prepare SQL statement to retrieve user data
-            $statement = $connection->prepare("SELECT email, password FROM registration WHERE email = ?");
+            $statement = $connection->prepare("SELECT user_id, username, email, password FROM registration WHERE email = ?");
             $statement->bind_param("s", $email);
             $statement->execute();
             $result = $statement->get_result();
@@ -34,20 +34,22 @@
             if ($result->num_rows == 1) {
                 // User found, verify password
                 $row = $result->fetch_assoc();
-                $stored_hashed_password = $row['password'];  // Correct
+                $stored_hashed_password = $row['password'];
 
                 // Compare the hashed passwords
                 if ($hashed_password === $stored_hashed_password) {
                     // Password is correct, set session variables
+                    $_SESSION['user_id'] = $row['user_id'];
                     $_SESSION['email'] = $row['email'];
+                    $_SESSION['username'] = $row['username'];
                     $_SESSION['logged_in'] = true;
 
                     // Redirect to dashboard or another secure page
-                    header("Location: purple_star.jpg");
+                    header("Location: index.php");
                     exit();
                 } else {
                     // Incorrect password
-                    echo "Incorrect password. Hashed password: " . $hashed_password;
+                    echo "Incorrect password.";
                 }
             } else {
                 // User not found
