@@ -14,7 +14,7 @@
                     <i class='bx bx-lock-alt'></i>
                 </div>
                 <div class="remember_forgot">
-                    <label><input type="checkbox" name="remember">Remember Me</label>
+                    <label></label>
                     <a href="#">Forgot password?</a>
                 </div>
                 <button type="submit" class="btn">Login</button>
