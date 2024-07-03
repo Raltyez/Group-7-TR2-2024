@@ -8,16 +8,20 @@ After that, we divide it by our velocity to decide the total working days for ea
 - **Login/Sign in Page**
   - Estimation: 10 Days
   - Priority: 10
+  - Task:
+      - Sign In Page
+      - Register Page
+      - Forgot Password
+      - User Database
+      - Change Profile
+      - Change Password
+      - Log Out Function
 
 - **Catalog**
   - Estimation: 15 Days
   - Priority: 10
 
 Total Work Days = 25 work days </br>
-Each developer work days = 25/3 = 9 days </br>
-Days required to get work done = 9/0.7 = 13 days
-
-</br>
 
 ## Iteration 2
 - **Specify Color**
@@ -37,10 +41,6 @@ Days required to get work done = 9/0.7 = 13 days
   - Priority: 10
 
 Total Work Days = 28 work days </br>
-Each developer work days = 28/3 = 10 days </br>
-Days required to get work done = 10/0.7 = 15 days
-
-</br>
 
 ## Iteration 3
 - **Shopping Cart**
@@ -60,5 +60,3 @@ Days required to get work done = 10/0.7 = 15 days
   - Priority: 50
 
 Total Work Days = 31 work days </br>
-Each developer work days = 31/3 = 11 days </br>
-Days required to get work done = 11/0.7 = 16 days
