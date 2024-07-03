@@ -5,7 +5,7 @@ After that, we divide it by our velocity to decide the total working days for ea
 </br>
 
 ## Iteration 1
-- **Login/Sign in Page**
+- **Login/Sign in Page (Wilson)**
   - Estimation: 10 Days
   - Priority: 10
   - Task:
@@ -17,7 +17,7 @@ After that, we divide it by our velocity to decide the total working days for ea
       - Change Password (2 day)
       - Log Out Function (1/2 day)
 
-- **Catalog**
+- **Catalog (Ralph)**
   - Estimation: 15 Days
   - Priority: 10
   - Task:
