@@ -455,6 +455,6 @@ body::-webkit-scrollbar {
 }
 
 .products-preview .preview .buttons a.buy:hover{
-    background: #444;
+    background: #111;
     color: #fff;
 }
