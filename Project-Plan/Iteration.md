@@ -20,6 +20,10 @@ After that, we divide it by our velocity to decide the total working days for ea
 - **Catalog**
   - Estimation: 15 Days
   - Priority: 10
+  - Task:
+      - Product lists (2 days)
+      - Product preview (5 Days)
+      - Formatting and desgning (3 Days)
 
 Total Work Days = 25 work days </br>
 
