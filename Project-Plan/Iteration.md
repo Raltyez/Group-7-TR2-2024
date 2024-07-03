@@ -9,13 +9,13 @@ After that, we divide it by our velocity to decide the total working days for ea
   - Estimation: 10 Days
   - Priority: 10
   - Task:
-      - Sign In Page
-      - Register Page
-      - Forgot Password
-      - User Database
-      - Change Profile
-      - Change Password
-      - Log Out Function
+      - Sign In Page (3 days)
+      - Register Page (1/2 days)
+      - Database for Users (4 days)
+      - Forgot Password (1 day)
+      - Change Profile (1/2 day)
+      - Change Password (2 day)
+      - Log Out Function (1/2 day)
 
 - **Catalog**
   - Estimation: 15 Days
