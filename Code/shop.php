@@ -28,45 +28,61 @@
         
         // Loop through each product row
         while($row = $result->fetch_assoc()) {
-            echo '<div class="product" data-name="p-' . $row["product_id"] . '">
-                    <img src="' . $row["product_image_url"] . '">
-                    <h3>' . $row["product_name"] . '</h3>
-                    <div class="price">$' . $row["product_price"] . '</div>
+            echo '<div class="product" data-name="p-' . htmlspecialchars($row["product_id"]) . '">
+                    <img src="' . htmlspecialchars($row["product_image_url"]) . '">
+                    <h3>' . htmlspecialchars($row["product_name"]) . '</h3>
+                    <div class="price">$' . htmlspecialchars($row["product_price"]) . '</div>
                   </div>';
         }
 
         echo '      </div>
                 </div>
                 <div class="products-preview">
-                    <!-- Preview content here -->
+                    <div class="preview" data-target="p-1">
+                        <i class="fa fa-times"></i>
+                        <img src="image_url_here" alt="product image">
+                        <h3>Product Title</h3>
+                        <p>Product description goes here.</p>
+                        <div class="price">$Price</div>
+                        <div class="buttons">
+                            <a href="#" class="cart">Add to Cart</a>
+                            <a href="#" class="buy">Buy Now</a>
+                        </div>
+                    </div>
+                    <!-- More preview items here if needed -->
                 </div>
             </main>';
     } else {
-        echo "No products found.";
+        echo "<p>No products found.</p>";
     }
+
     // Close connection
     $conn->close();
 ?>
 
 <script>
-    let preveiwContainer = document.querySelector('.products-preview');
-    let previewBox = preveiwContainer.querySelectorAll('.preview');
-    document.querySelectorAll('.products-container .product').forEach(product =>{
-    product.onclick = () =>{
-        preveiwContainer.style.display = 'flex';
-        let name = product.getAttribute('data-name');
-        previewBox.forEach(preview =>{
-        let target = preview.getAttribute('data-target');
-        if(name == target){
-            preview.classList.add('active');
-        }
+    document.addEventListener('DOMContentLoaded', function () {
+        let previewContainer = document.querySelector('.products-preview');
+        let previewBoxes = previewContainer.querySelectorAll('.preview');
+        document.querySelectorAll('.products-container .product').forEach(product => {
+            product.onclick = () => {
+                previewContainer.style.display = 'flex';
+                let name = product.getAttribute('data-name');
+                previewBoxes.forEach(preview => {
+                    let target = preview.getAttribute('data-target');
+                    if (name === target) {
+                        preview.classList.add('active');
+                    } else {
+                        preview.classList.remove('active');
+                    }
+                });
+            };
         });
-    };
-    });
-    previewBox.forEach(close =>{
-    close.querySelector('.fa-times').onclick = () =>{
-        close.classList.remove('active');
-        preveiwContainer.style.display = 'none';
-    };
+        previewBoxes.forEach(preview => {
+            preview.querySelector('.fa-times').onclick = () => {
+                preview.classList.remove('active');
+                previewContainer.style.display = 'none';
+            };
+        });
     });
 </script>
