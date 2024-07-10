@@ -28,11 +28,11 @@ After that, we divide it by our velocity to decide the total working days for ea
 Total Work Days = 25 work days </br>
 
 ## Iteration 2
-- **Specify Color**
+- **Specify Color (Ralph)**
   - Estimation: 2 Days
   - Priority: 10
 
-- **Size Measurement**
+- **Size Measurement (Ralph)**
   - Estimation: 2 Days
   - Priority: 10
 
