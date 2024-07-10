@@ -24,8 +24,9 @@ After that, we divide it by our velocity to decide the total working days for ea
       - Product lists (2 days)
       - Product preview (5 Days)
       - Formatting and desgning (3 Days)
+      - Database for products
 
-Total Work Days = 25 work days </br>
+Total Estimated Work Days = 25 work days </br>
 
 ## Iteration 2
 - **Specify Color (Ralph)**
@@ -44,7 +45,7 @@ Total Work Days = 25 work days </br>
   - Estimation: 5 Days
   - Priority: 10
 
-Total Work Days = 28 work days </br>
+Total Estimated Work Days = 28 work days </br>
 
 ## Iteration 3
 - **Shopping Cart**
@@ -63,4 +64,4 @@ Total Work Days = 28 work days </br>
   - Estimation: 15 Days
   - Priority: 50
 
-Total Work Days = 31 work days </br>
+Total Estimated Work Days = 31 work days </br>
