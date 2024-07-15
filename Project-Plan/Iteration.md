@@ -17,7 +17,7 @@ After that, we divide it by our velocity to decide the total working days for ea
       - Change Password (2 day)
       - Log Out Function (1/2 day)
 
-- **Catalog (Ralph)**
+- **Catalog (Ralph, Wilson)**
   - Estimation: 15 Days
   - Priority: 10
   - Task:
