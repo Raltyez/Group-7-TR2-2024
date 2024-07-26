@@ -37,20 +37,25 @@ Total Estimated Work Days = 25 work days </br>
   - Estimation: 2 Days
   - Priority: 10
 
-- **Pay Online**
+- **Pay Online** (Wilson)
   - Estimation: 12 Days
   - Priority: 10
 
-- **Delivery Service**
+- **Delivery Service** (Wilson)
   - Estimation: 5 Days
   - Priority: 10
 
 Total Estimated Work Days = 28 work days </br>
 
 ## Iteration 3
-- **Shopping Cart**
+- **Shopping Cart (Wilson)** 
   - Estimation: 7 Days
   - Priority: 20
+  - Task:
+      - Create cart and cart_items database (15 minutes)
+      - Link cart, cart_items, and user together (35 minutes)
+      - Product in cart (4 days)
+      - Display total price (1/2 days)
 
 - **Request Specific Design**
   - Estimation: 2 Days
