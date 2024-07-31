@@ -4,7 +4,7 @@
     // Check if user is logged in
     if (!isset($_SESSION['user_id'])) {
         // Redirect to login page if not logged in
-        header("Location: login.php");
+        header("Location: sign_in_page.php");
         exit();
     }
 
@@ -34,7 +34,7 @@
         echo '<main>
                 <div class="container">
                     <h3 class="title">Shirts</h3>
-                    <div class="products-container">';
+                    <div class="products_container">';
         
         // Loop through each product row
         while($row = $result->fetch_assoc()) {
@@ -48,14 +48,14 @@
 
         echo '      </div>
                 </div>
-                <div class="products-preview">';
+                <div class="products_preview">';
         
         // Loop through each product row again to create the previews
         $result->data_seek(0); // Reset result pointer to the beginning
         while($row = $result->fetch_assoc()) {
             echo '<div class="preview" data-target="p-' . htmlspecialchars($row["product_id"]) . '">
                         <i class="fa fa-times"></i>
-                        <img src="' . htmlspecialchars($row["product_image_url"]) . '" alt="' . htmlspecialchars($row["product_name"]) . '">
+                        <img src="' . htmlspecialchars($row["product_image_url"]) . '" alt="' . htmlspecialchars($row["product_name"]) . '" class="product_picture">
                         <h3>' . htmlspecialchars($row["product_name"]) . '</h3>
                         <div class="price">$' . htmlspecialchars($row["product_price"]) . '</div>
                         <div class="buttons">
@@ -75,12 +75,11 @@
     $conn->close();
 ?>
 
-
 <script>
     document.addEventListener('DOMContentLoaded', function () {
-        let previewContainer = document.querySelector('.products-preview');
+        let previewContainer = document.querySelector('.products_preview');
         let previewBoxes = previewContainer.querySelectorAll('.preview');
-        document.querySelectorAll('.products-container .product').forEach(product => {
+        document.querySelectorAll('.products_container .product').forEach(product => {
             product.onclick = () => {
                 previewContainer.style.display = 'flex';
                 let name = product.getAttribute('data-name');
@@ -102,7 +101,7 @@
         });
 
         // Add to Cart functionality
-        document.querySelectorAll('.products-container .product .cart').forEach(button => {
+        document.querySelectorAll('.products_container .product .cart').forEach(button => {
             button.addEventListener('click', function (event) {
                 event.stopPropagation(); // Prevent preview from opening
                 let productId = button.closest('.product').getAttribute('data-id');
@@ -125,7 +124,7 @@
             });
         });
 
-        document.querySelectorAll('.products-preview .preview .cart').forEach(button => {
+        document.querySelectorAll('.products_preview .preview .cart').forEach(button => {
             button.addEventListener('click', function (event) {
                 event.stopPropagation(); // Prevent preview from closing
                 let productId = button.closest('.preview').getAttribute('data-target').substring(2);
