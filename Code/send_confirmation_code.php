@@ -40,7 +40,7 @@
                     try {
                         //Server settings
                         $mail->isSMTP();
-                        $mail->Host = 'smtp.gmail.com';  // Specify your SMTP server (Gmail example)
+                        $mail->Host = 'smtp.gmail.com';  // Specify your SMTP server (Gmail)
                         $mail->SMTPAuth = true;
                         $mail->Username = 'vallerianwilson@gmail.com';
                         $mail->Password = 'qlhk rnws lfdc evoi';
