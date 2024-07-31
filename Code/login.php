@@ -14,11 +14,13 @@
         // Hash the entered password using SHA-256
         $hashed_password = hash('sha256', $password);
 
-        // Database Connection
+        // Determine the database to use based on an environment variable
         $servername = "localhost";
-        $username = "root";   // Your database username
-        $password_db = "";    // Your database password (leave empty if no password)
-        $dbname = "users";    // Your database name
+        $username = "root";
+        $password_db = "";
+        $dbname = getenv('APP_ENV') === 'testing' ? 'tests' : 'users'; // Use 'tests' database in test environment
+
+        // Create connection
         $connection = new mysqli($servername, $username, $password_db, $dbname);
 
         // Check connection
