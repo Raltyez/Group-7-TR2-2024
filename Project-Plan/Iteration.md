@@ -37,7 +37,7 @@ Total Estimated Work Days = 25 work days </br>
   - Estimation: 2 Days
   - Priority: 10
 
-- [ ] **Pay Online**
+- [x] **Pay Online**
   - Estimation: 8 Day
   - Priority: 10
   - Task:
