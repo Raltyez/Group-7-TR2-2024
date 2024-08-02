@@ -32,3 +32,20 @@ The primary goal of the Custom Shirt Designer project is to develop a user-frien
 5. Order Tracking: Develop a system for users to track the status of their orders and view past purchases.
 </details>
 
+<details>
+<summary>
+  Instructions
+</summary>
+  
+## Instructions
+1. Install [VS Code](https://code.visualstudio.com/download) or others
+2. Install [XAMPP](https://www.apachefriends.org/download.html)
+3. Run XAMPP Control Pannel and clicl 'Start' on Apache and My Sql Server. Ensures that port 80, 443 and 3306 are not being used by other app.
+   ![Screenshot 2024-08-02 155454](https://github.com/user-attachments/assets/67dda34b-3e17-4ac1-b47f-0387654ef845)
+4. Open web browser and search for 'localhost', then on website header, click 'phpMyAdmin'
+   ![Screenshot 2024-08-02 155822](https://github.com/user-attachments/assets/b35e144f-fdb8-4c19-9523-f1bbbb8355ea)
+5. Create a new database, name it with 'users'
+   ![Screenshot 2024-08-02 155958](https://github.com/user-attachments/assets/82d73785-89d5-4984-be8d-a781a8de32ac)
+
+
+</details>
