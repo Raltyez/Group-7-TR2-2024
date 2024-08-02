@@ -5,7 +5,7 @@ After that, we divide it by our velocity to decide the total working days for ea
 </br>
 
 ## Iteration 1
-- **Login/Sign in Page (Wilson)**
+- [x] **Login/Sign in Page**
   - Estimation: 10 Days
   - Priority: 10
   - Task:
@@ -17,7 +17,7 @@ After that, we divide it by our velocity to decide the total working days for ea
       - Change Password (2 day)
       - Log Out Function (1/2 day)
 
-- **Catalog (Ralph, Wilson)**
+- [x] **Catalog**
   - Estimation: 15 Days
   - Priority: 10
   - Task:
@@ -29,26 +29,26 @@ After that, we divide it by our velocity to decide the total working days for ea
 Total Estimated Work Days = 25 work days </br>
 
 ## Iteration 2
-- **Specify Color (Ralph)**
+- [ ] **Specify Color**
   - Estimation: 2 Days
   - Priority: 10
 
-- **Size Measurement (Ralph)**
+- [ ] **Size Measurement**
   - Estimation: 2 Days
   - Priority: 10
 
-- **Pay Online** (Wilson)
+- [ ] **Pay Online**
   - Estimation: 12 Days
   - Priority: 10
 
-- **Delivery Service** (Wilson)
+- [ ] **Delivery Service**
   - Estimation: 5 Days
   - Priority: 10
 
 Total Estimated Work Days = 28 work days </br>
 
 ## Iteration 3
-- **Shopping Cart (Wilson)** 
+- [x] **Shopping Cart** 
   - Estimation: 7 Days
   - Priority: 20
   - Task:
@@ -57,15 +57,15 @@ Total Estimated Work Days = 28 work days </br>
       - Product in cart (4 days)
       - Display total price (1/2 days)
 
-- **Request Specific Design**
+- [ ] **Request Specific Design**
   - Estimation: 2 Days
   - Priority: 30
 
-- **Purchase History**
+- [ ] **Purchase History**
   - Estimation: 7 Days
   - Priority: 40
 
-- **Virtual Assistant**
+- [ ] **Virtual Assistant**
   - Estimation: 15 Days
   - Priority: 50
 
