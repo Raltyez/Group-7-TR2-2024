@@ -38,14 +38,19 @@ The primary goal of the Custom Shirt Designer project is to develop a user-frien
 </summary>
   
 ## Instructions
-1. Install [VS Code](https://code.visualstudio.com/download) or others
-2. Install [XAMPP](https://www.apachefriends.org/download.html)
+1. Install [VS Code](https://code.visualstudio.com/download) or others.
+2. Install [XAMPP](https://www.apachefriends.org/download.html).
 3. Run XAMPP Control Pannel and clicl 'Start' on Apache and My Sql Server. Ensures that port 80, 443 and 3306 are not being used by other app.
    ![Screenshot 2024-08-02 155454](https://github.com/user-attachments/assets/67dda34b-3e17-4ac1-b47f-0387654ef845)
-4. Open web browser and search for 'localhost', then on website header, click 'phpMyAdmin'
+4. Open web browser and search for 'localhost', then on website header, click 'phpMyAdmin'.
    ![Screenshot 2024-08-02 155822](https://github.com/user-attachments/assets/b35e144f-fdb8-4c19-9523-f1bbbb8355ea)
-5. Create a new database, name it with 'users'
+5. Create a new database, name it with 'users' and tap create.
    ![Screenshot 2024-08-02 155958](https://github.com/user-attachments/assets/82d73785-89d5-4984-be8d-a781a8de32ac)
+6. Open the SQL on users and copy the sql code [here](https://github.com/Raltyez/Group-7-TR2-2024/blob/main/Code/sql_code), paste it in the SQL page and click go.
+   ![image](https://github.com/user-attachments/assets/e7be1db4-3bae-4da4-bce8-2cd834a3300e)
+7. You should have the attributes like below.
+   ![image](https://github.com/user-attachments/assets/5a2d032e-ada0-4b56-aaf9-f71c1af2f533)
+8. Click on product and 
 
 
 </details>
