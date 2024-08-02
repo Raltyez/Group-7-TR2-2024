@@ -38,10 +38,11 @@ Total Estimated Work Days = 25 work days </br>
   - Priority: 10
 
 - [ ] **Pay Online**
-  - Estimation: 1 Day
+  - Estimation: 8 Day
   - Priority: 10
   - Task:
-      - Create payment page
+      - Create payment page (1 day)
+      - Approve payment (4 day)
 
 - [ ] **Delivery Service**
   - Estimation: 5 Days
