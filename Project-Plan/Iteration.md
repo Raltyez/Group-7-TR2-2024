@@ -64,7 +64,7 @@ Total Estimated Work Days = 28 work days </br>
   - Estimation: 2 Days
   - Priority: 30
 
-- [ ] **Purchase History**
+- [x] **Purchase History**
   - Estimation: 7 Days
   - Priority: 40
 
