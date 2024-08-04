@@ -148,3 +148,8 @@
         });
     });
 </script>
+
+<?php 
+    include_once("footer.html");
+?>
+
