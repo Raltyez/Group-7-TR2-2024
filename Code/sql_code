@@ -28,6 +28,8 @@ CREATE TABLE cart_items (
     cart_id INT,
     product_id INT,
     quantity INT DEFAULT 1,
+    size VARCHAR(50),  -- Add this line for size
+    color VARCHAR(50), -- Add this line for color
     added_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
     FOREIGN KEY (cart_id) REFERENCES cart(cart_id),
     FOREIGN KEY (product_id) REFERENCES product(product_id)
