@@ -122,3 +122,7 @@ echo '    <div class="total_price">
 $stmt->close();
 $conn->close();
 ?>
+
+<?php 
+    include_once("footer.html");
+?>
