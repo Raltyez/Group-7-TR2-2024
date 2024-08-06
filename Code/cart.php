@@ -47,7 +47,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['action']) && isset($_P
 }
 
 // Fetch cart items for the user
-$sql = "SELECT ci.cart_item_id, p.product_name, p.product_image_url, p.product_price as price, ci.quantity
+$sql = "SELECT ci.cart_item_id, p.product_name, p.product_image_url, p.product_price as price, ci.quantity, ci.size, ci.color
         FROM cart_items ci
         JOIN cart c ON ci.cart_id = c.cart_id
         JOIN product p ON ci.product_id = p.product_id
@@ -81,6 +81,8 @@ if ($result->num_rows > 0) {
                 <img src="' . htmlspecialchars($row["product_image_url"]) . '" alt="' . htmlspecialchars($row["product_name"]) . '">
                 <div class="cart_item_details">
                     <h4>' . htmlspecialchars($row["product_name"]) . '</h4>
+                    <p>Size: ' . htmlspecialchars($row["size"]) . '</p>
+                    <p>Color: ' . htmlspecialchars($row["color"]) . '</p>
                     <p>Quantity: ' . htmlspecialchars($row["quantity"]) . '</p>
                     <p>Price: $' . number_format($row["price"], 2) . '</p>
                     <p>Total: $' . number_format($row["quantity"] * $row["price"], 2) . '</p>
