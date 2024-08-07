@@ -20,7 +20,7 @@
     $result = $statement->get_result();
     $user = $result->fetch_assoc();
 ?>
-<main style="display: flex; justify-content: center; align-items: center; background-image: url('purple_star.jpg'); height: 100vh; margin: 0;">
+<main style="display: flex; justify-content: center; align-items: center; background-image: url('shirt_background.webp'); height: 100vh; margin: 0;">
     <div class="wrapper">
         <h1 style="color: white;">Hello <?php echo htmlspecialchars($_SESSION["username"]); ?></h1>
         <form method="POST" action="change_profile.php">
