@@ -987,6 +987,83 @@ a:hover {
     color: white;
 }
 
+/* Contact */
+.contact_container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 3rem 2rem;
+}
+.contact_container h3 {
+    font-size: 36px;
+    color: white;
+    margin-bottom: 1.5rem;
+}
+.contact_container a:hover {
+    color: orange;
+}
+.contact_container i{ 
+    color: orange; 
+    margin-right: 10px; 
+    padding-bottom: 20px;
+}
+.contact_container p{
+    font-size: 1.2rem;
+}
+.contact_container a {
+    color: white;
+    text-decoration: none;
+}
+.contact_container a:hover {
+    text-decoration: underline;
+}
+
+/* Chat Assistant */
+.chat_container h2{
+    font-size: 36px;
+    margin-bottom: 12px;
+}
+
+.chat_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    padding: 3rem 2rem;
+}
+#predefined_responses, #chat_container {
+    width: 100%;
+    max-width: 600px;
+    background-color: #333;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 12px;
+}
+#predefined_responses h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+#predefined_responses ul {
+    list-style-type: none;
+    padding: 0;
+}
+#predefined_responses li {
+    margin-bottom: 10px;
+}
+#chat_box {
+    height: 300px;
+    overflow-y: auto;
+    border-bottom: 1px solid white;
+    margin-bottom: 10px;
+}
+#chat_form {
+    display: flex;
+}
+#user_message {
+    flex: 1;
+    padding: 10px;
+}
+
 /* Responsive */
 @media (max-width: 970px) {
     .navbar .links {
