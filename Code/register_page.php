@@ -56,8 +56,7 @@
                     alert(data.message);
                 } else {
                     alert(data.message);
-                    // Optionally redirect to another page on success
-                    // window.location.href = "success_page.php";
+                    window.location.href = "index.php"; // Redirect on success
                 }
             })
             .catch(error => {
