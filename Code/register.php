@@ -2,6 +2,8 @@
 error_reporting(E_ALL);
 ini_set('display_errors', 1);
 
+session_start();
+
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Initialize response array
     $response = array("status" => "", "message" => "");
@@ -52,6 +54,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             $statement->bind_param("sss", $email, $username, $hashed_password);
 
             if ($statement->execute()) {
+                // Registration successful, set session variables
+                $_SESSION['user_id'] = $statement->insert_id;
+                $_SESSION['email'] = $email;
+                $_SESSION['username'] = $username;
+                $_SESSION['logged_in'] = true;
+
                 $response["status"] = "success";
                 $response["message"] = "Registration Success";
             } else {
