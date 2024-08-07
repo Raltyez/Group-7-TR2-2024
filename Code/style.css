@@ -107,7 +107,7 @@ main {
 .wrapper h1 {
     font-size: 36px;
     text-align: center;
-    background: url("purple_star_crop_2.jpg");
+    background: orange;
     background-repeat: repeat;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
