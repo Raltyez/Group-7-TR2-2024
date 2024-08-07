@@ -1,7 +1,7 @@
 <?php 
     include_once("header.php");
 ?>
-        <main style="display: flex; justify-content: center; align-items: center; background-image: url('purple_star.jpg'); height: 100vh; margin: 0;">
+        <main style="display: flex; justify-content: center; align-items: center; background-image: url('shirt_background.webp'); height: 100vh; margin: 0;">
             <div class="wrapper">
                 <form action="register.php" method="post">
                     <h1>Sign Up</h1>
@@ -23,7 +23,7 @@
                     </div>
                     <div class="remember_forgot">
                         <label></label>
-                        <a href="#">Forgot password?</a>
+                        <a href="forgot_password_form.php">Forgot password?</a>
                     </div>
                     <button type="submit" class="btn">Register</button>
                     <div class="register_link">
