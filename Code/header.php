@@ -30,7 +30,7 @@
                     ?>
                     <li class="dropdown">
                         <a href="profile.php" id="login_nav"><?php echo $_SESSION["username"];?></a>
-                        <div class="dropdown-content">
+                        <div class="dropdown_content">
                             <a href="profile.php">Profile</a>
                             <a href="logout.php">Logout</a>
                         </div>
