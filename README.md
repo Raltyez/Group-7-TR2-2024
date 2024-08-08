@@ -37,20 +37,41 @@ The primary goal of the Custom Shirt Designer project is to develop a user-frien
   Instructions
 </summary>
   
-## Instructions
-1. Install [VS Code](https://code.visualstudio.com/download) or others.
-2. Install [XAMPP](https://www.apachefriends.org/download.html).
-3. Run XAMPP Control Pannel and clicl 'Start' on Apache and My Sql Server. Ensures that port 80, 443 and 3306 are not being used by other app.
-   ![Screenshot 2024-08-02 155454](https://github.com/user-attachments/assets/67dda34b-3e17-4ac1-b47f-0387654ef845)
-4. Open web browser and search for 'localhost', then on website header, click 'phpMyAdmin'.
-   ![Screenshot 2024-08-02 155822](https://github.com/user-attachments/assets/b35e144f-fdb8-4c19-9523-f1bbbb8355ea)
-5. Create a new database, name it with 'users' and tap create.
-   ![Screenshot 2024-08-02 155958](https://github.com/user-attachments/assets/82d73785-89d5-4984-be8d-a781a8de32ac)
-6. Open the SQL on users and copy the sql code [here](https://github.com/Raltyez/Group-7-TR2-2024/blob/main/Code/sql_code), paste it in the SQL page and click go.
-   ![image](https://github.com/user-attachments/assets/e7be1db4-3bae-4da4-bce8-2cd834a3300e)
-7. You should have the attributes like below.
-   ![image](https://github.com/user-attachments/assets/5a2d032e-ada0-4b56-aaf9-f71c1af2f533)
-8. Click on product and 
+## Project Setup Instructions
 
+### 1. Install Necessary Software
+1. **VS Code**: Download and install [VS Code](https://code.visualstudio.com/download) or another code editor of your choice.
+2. **Composer**: Download and install [Composer](https://getcomposer.org/download/) for dependency management and to use tools like PHPMailer.
+3. **XAMPP**: Download and install [XAMPP](https://www.apachefriends.org/download.html) for a local web server environment.
+
+### 2. Configure XAMPP
+1. Open the XAMPP Control Panel.
+2. Click 'Start' for both Apache and MySQL. 
+3. Ensure that ports 80, 443, and 3306 are not being used by other applications.
+   ![XAMPP Control Panel](https://github.com/user-attachments/assets/67dda34b-3e17-4ac1-b47f-0387654ef845)
+
+### 3. Set Up the Database
+1. Open a web browser and go to `localhost`.
+2. In the website header, click on 'phpMyAdmin'.
+   ![phpMyAdmin](https://github.com/user-attachments/assets/b35e144f-fdb8-4c19-9523-f1bbbb8355ea)
+3. Create a new database named `users` and click 'Create'.
+   ![Create Database](https://github.com/user-attachments/assets/82d73785-89d5-4984-be8d-a781a8de32ac)
+4. Open the SQL tab in the `users` database.
+5. Copy the SQL code from [this link](https://github.com/Raltyez/Group-7-TR2-2024/blob/main/Code/sql_code) and paste it into the SQL query box. Click 'Go'.
+   ![SQL Query](https://github.com/user-attachments/assets/e7be1db4-3bae-4da4-bce8-2cd834a3300e)
+6. Verify that the attributes are as shown below.
+   ![Database Attributes](https://github.com/user-attachments/assets/c95524d1-d979-4148-a845-e4a295fa56a0)
+7. Click on the `product` database, open the SQL tab, and paste the SQL code from [this link](https://github.com/Raltyez/Group-7-TR2-2024/blob/main/Code/product_sql_code). Click 'Go'.
+
+### 4. Set Up the Project Folder
+1. Create a new folder named `comitop` in the following directory: `This PC > OS (C:) > xampp > htdocs`.
+2. Open VS Code and navigate to the `comitop` folder.
+3. Paste all the code from [this repository](https://github.com/Raltyez/Group-7-TR2-2024/tree/main/Code) into the `comitop` folder.
+
+### 5. Verify the Setup
+1. In your web browser, go to `http://localhost/comitop` to see if the project is running correctly.
+2. Ensure that the database and project files are correctly set up and functioning as expected.
+
+If you encounter any issues, refer to the installation guides of the respective software or seek help from relevant community forums.
 
 </details>
