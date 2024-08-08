@@ -81,10 +81,3 @@ CREATE TABLE design_requests (
     FOREIGN KEY (user_id) REFERENCES registration(user_id)
 );
 
-INSERT INTO `product` (`product_id`, `product_name`, `product_price`, `product_image_url`) VALUES
-(1, 'White Shirt', 10.00, 'https://i.ibb.co/Rvd0kHd/1.png'),
-(2, 'Black Shirt', 11.00, 'https://i.ibb.co/nk4mN6L/2.png'),
-(3, 'Yellow Shirt', 15.00, 'https://i.ibb.co/X4qzxGB/3.png'),
-(4, 'Peach Shirt', 17.00, 'https://i.ibb.co/KsLnGsD/White-Green-Simple-Word-T-Shirt-Design.png'),
-(5, 'Green Black Shirt', 20.00, 'https://i.ibb.co/m633YpX/White-Green-Simple-Word-T-Shirt-Design-1.png'),
-(6, 'White Shirt V2', 13.00, 'https://i.ibb.co/Rvd0kHd/1.png');
