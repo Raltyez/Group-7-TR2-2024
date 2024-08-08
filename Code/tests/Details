@@ -1,4 +1,0 @@
-This folder contains testing code for some files in the root folder. These testing files are examples of how to build testing code.
-
-Why did some testing code produce error messages?
-The code did not produce error messages previously. However, recent updates for auto login and auto login after registration have introduced errors.
