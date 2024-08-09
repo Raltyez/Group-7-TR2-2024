@@ -28,12 +28,12 @@ In progress: **Done**
 
 Completed:
 * Choose Color (Ralph), 11/06/2024
-* Design Shirt For Display (Ralph), 18/07/2024
-* Insert Choosen Color to Databse (Wilson), 12/07/2024
 * Choose Size (Ralph), 12/06/2024
+* Insert Choosen Color to Databse (Wilson), 12/07/2024
 * Insert Choosen Size to Databse (Wilson), 13/07/2024
 * Create payment page (Wilson, Jason), 15/07/2024
 * Approve payment (Jason), 16/07/2024
+* Design Shirt For Display (Ralph), 18/07/2024
 * Insert Payment to Databse (Wilson), 18/07/2024
 * Add Delivery Option (Wilson), 19/07/2024
 
