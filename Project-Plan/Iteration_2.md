@@ -20,7 +20,7 @@ Checklist:
 * Number of developers: 3
 * Total estimated amount of task: 14 days
 * Total estimated amount of user stories: 28 days
-* Actual amount of work:  days
+* Actual amount of work: 9 days
 
 User stories or tasks: **Done**
 
