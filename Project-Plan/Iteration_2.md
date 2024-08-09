@@ -37,7 +37,7 @@ Completed:
 * Insert Payment to Databse (Wilson), 18/07/2024
 * Add Delivery Option (Wilson), 19/07/2024
 
-### Burn Down for iteration-1:
+### Burn Down for iteration-2:
 * 4 weeks left, 14 days of estimated amount of work
 * 2 weeks left, 7 days of estimated amount of work
 * 1 week left, 3.5 days of estimated amount of work
